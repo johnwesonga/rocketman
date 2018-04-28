@@ -4,7 +4,7 @@ import React from "react";
 
 type PickerProps = {
   options: Object,
-  onChange: (e: HTMLSelectElement) => void
+  onChange: (e: HTMLInputElement) => void
 };
 
 export const Picker = ({ options, onChange }: PickerProps) => {
